@@ -4,7 +4,7 @@
 Add the following code in a root screen.
 
 
-```
+```javascript
 
   function onNotificationOpened(notification: any) {
     console.log(notification.data);
