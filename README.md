@@ -4,6 +4,8 @@
 Add the following code in a root screen.
 
 
+```
+
   function onNotificationOpened(notification: any) {
     console.log(notification.data);
     //Handle Notification
@@ -24,3 +26,5 @@ Add the following code in a root screen.
       NotificationHandler.removeListeners();
     }
   ,[]}
+  
+  ```
